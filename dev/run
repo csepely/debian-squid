@@ -1,0 +1,3 @@
+#!/bin/bash
+#docker run -tid -p3128:3128 --name debian-squid -v debian-squid-etc:/etc/squid/ debian-squid
+docker run -tid -p3128:3128 --name debian-squid -v debian-squid-etc:/etc/squid/ debian-squid
